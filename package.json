@@ -11,7 +11,7 @@
     "url": "git+https://github.com/caraclarke/cara-website.git"
   },
   "author": "Cara Clarke",
-  "license": "ISC",
+  "license": "Apache 2.0",
   "bugs": {
     "url": "https://github.com/caraclarke/cara-website/issues"
   },
