@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');
+
+// fonts
+$serif: 'Roboto Slab', serif;
+$sans-serif: 'Open Sans', sans-serif;
+
+// mixins
+
+@mixin breakpoint($point) {
+  @if $point == large {
+    @media all and (min-width: 1025px) { @content; }
+  }
+  @else if $point == medium {
+    @media all and (min-width: 992px) and (max-width: 1024px) { @content; }
+  }
+  @else if $point == mobile {
+    @media all and (max-width: 991px)  { @content; }
+  }
+}
+
+// colors
+
+$neutral-black: #000;
+$neutral-white: #fff;
