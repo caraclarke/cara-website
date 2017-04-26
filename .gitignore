@@ -1,0 +1,7 @@
+node_modules/
+
+notes.txt
+.DS_Store
+
+# temp #
+dist/

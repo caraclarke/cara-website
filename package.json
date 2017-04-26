@@ -1,0 +1,19 @@
+{
+  "name": "cara-website",
+  "version": "1.0.0",
+  "description": "CEC Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caraclarke/cara-website.git"
+  },
+  "author": "Cara Clarke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caraclarke/cara-website/issues"
+  },
+  "homepage": "https://github.com/caraclarke/cara-website#readme"
+}
