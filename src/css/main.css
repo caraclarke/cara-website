@@ -436,7 +436,8 @@ template {
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #000;
+  background-color: #fff;
+  color: #737373;
   margin: 0; }
 
 h1,
@@ -446,10 +447,15 @@ h4,
 h5 {
   font-family: "Roboto Slab", serif; }
 
+h1,
+h2 {
+  color: #fff; }
+
 nav ul {
   list-style: none; }
 
 a {
+  color: #6ab47b;
   text-decoration: none; }
 
 #wrapper {
@@ -459,4 +465,19 @@ a {
 
 #logo {
   text-align: center;
-  margin: 0; }
+  margin: 0;
+  color: #fff; }
+
+header {
+  background: #6ab47b;
+  border-color: #599a68; }
+  header nav {
+    background: #599a68; }
+    header nav a {
+      color: #fff; }
+      header nav a:visited {
+        color: #fff; }
+      header nav a:hover {
+        color: #32673f; }
+    header nav .selected a {
+      color: #32673f; }

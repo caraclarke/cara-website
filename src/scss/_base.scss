@@ -1,6 +1,7 @@
 body {
   font-family: $sans-serif;
-  color: $neutral-black;
+  background-color: $neutral-white;
+  color: $neutral-grey;
   margin: 0;
 }
 
@@ -12,6 +13,11 @@ h5 {
   font-family: $serif;
 }
 
+h1,
+h2 {
+  color: $neutral-white;
+}
+
 nav {
   ul {
     list-style: none;
@@ -19,5 +25,6 @@ nav {
 }
 
 a {
+  color: $md-green;
   text-decoration: none;
 }

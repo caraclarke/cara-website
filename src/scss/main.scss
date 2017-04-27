@@ -14,4 +14,32 @@
 #logo {
   text-align: center;
   margin: 0;
+  color: $neutral-white;
+}
+
+header {
+  background: $md-green;
+  border-color: $dusty-green;
+
+  nav {
+    background: $dusty-green;
+
+    a {
+      color: $neutral-white;
+
+      &:visited {
+        color: $neutral-white;
+      }
+
+      &:hover {
+        color: $dark-green;
+      }
+    }
+
+    .selected {
+      a {
+        color: $dark-green;
+      }
+    }
+  }
 }
