@@ -457,11 +457,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Roboto Slab", serif; }
-
-h1,
-h2 {
-  color: #fff; }
+  font-family: "Roboto Slab", sans-serif; }
 
 nav ul {
   list-style: none; }
@@ -486,8 +482,16 @@ a {
 header {
   background: #6ab47b;
   border-color: #599a68; }
+  header h1 {
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em; }
   header nav {
-    background: #599a68; }
+    background: #599a68;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0; }
     header nav a {
       color: #fff; }
       header nav a:visited {
@@ -496,3 +500,12 @@ header {
         color: #32673f; }
     header nav .selected a {
       color: #32673f; }
+
+/***************************
+  FOOTER
+****************************/
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px;
+  color: #999; }
