@@ -1,6 +1,74 @@
-// imports
+/***************************
+  IMPORTS
+****************************/
 
 @import "normalize/normalize";
 @import "vars/vars";
 
 @import "base";
+@import "sections/portfolio";
+
+/***************************
+  NAVBAR/HEADER
+****************************/
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+  color: $neutral-white;
+}
+
+header {
+  background: $md-green;
+  border-color: $dusty-green;
+
+  h1 {
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+  }
+
+  nav {
+    background: $dusty-green;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+
+    a {
+      color: $neutral-white;
+
+      &:visited {
+        color: $neutral-white;
+      }
+
+      &:hover {
+        color: $dark-green;
+      }
+    }
+
+    .selected {
+      a {
+        color: $dark-green;
+      }
+    }
+  }
+}
+
+/***************************
+  FOOTER
+****************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px;
+  color: $light-grey;
+  clear: both;
+}

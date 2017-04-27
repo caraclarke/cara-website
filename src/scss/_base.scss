@@ -1,6 +1,7 @@
 body {
-  font-family: $sans-serif;
-  color: $neutral-black;
+  font-family: $body-font;
+  background-color: $neutral-white;
+  color: $neutral-grey;
   margin: 0;
 }
 
@@ -9,5 +10,20 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: $serif;
+  font-family: $header-font;
+}
+
+nav {
+  ul {
+    list-style: none;
+  }
+}
+
+a {
+  color: $md-green;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
 }
