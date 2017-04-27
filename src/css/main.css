@@ -445,3 +445,18 @@ h3,
 h4,
 h5 {
   font-family: "Roboto Slab", serif; }
+
+nav ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%; }
+
+#logo {
+  text-align: center;
+  margin: 0; }

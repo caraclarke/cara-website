@@ -4,3 +4,14 @@
 @import "vars/vars";
 
 @import "base";
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
