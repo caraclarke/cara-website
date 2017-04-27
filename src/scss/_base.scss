@@ -2,7 +2,6 @@ body {
   font-family: $body-font;
   background-color: $neutral-white;
   color: $neutral-grey;
-  margin: 0;
 }
 
 h1,
@@ -26,4 +25,14 @@ a {
 
 img {
   max-width: 100%;
+}
+
+/***************************
+  MAIN CONTENT CONTAINER
+****************************/
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
 }

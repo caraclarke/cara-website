@@ -449,8 +449,7 @@ template {
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #fff;
-  color: #737373;
-  margin: 0; }
+  color: #737373; }
 
 h1,
 h2,
@@ -468,6 +467,14 @@ a {
 
 img {
   max-width: 100%; }
+
+/***************************
+  MAIN CONTENT CONTAINER
+****************************/
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%; }
 
 /***************************
   SECTION: PORTFOLIO GALLERY
@@ -491,31 +498,37 @@ img {
 /***************************
   NAVBAR/HEADER
 ****************************/
-#wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%; }
-
-#logo {
-  text-align: center;
-  margin: 0;
-  color: #fff; }
-
 header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
   background: #6ab47b;
   border-color: #599a68; }
-  header h1 {
-    margin: 15px 0;
-    font-size: 1.75em;
-    font-weight: normal;
-    line-height: 0.8em; }
+  header #logo {
+    text-align: center;
+    margin: 0;
+    color: #fff; }
+    header #logo h1 {
+      margin: 15px 0;
+      font-size: 1.75em;
+      font-weight: normal;
+      line-height: 0.8em; }
   header nav {
     background: #599a68;
     text-align: center;
     padding: 10px 0;
     margin: 20px 0 0; }
+    header nav ul {
+      list-style: none;
+      margin: 0 10px;
+      padding: 0; }
+      header nav ul li {
+        display: inline-block; }
     header nav a {
-      color: #fff; }
+      color: #fff;
+      text-transform: uppercase;
+      padding: 15px 10px; }
       header nav a:visited {
         color: #fff; }
       header nav a:hover {
@@ -532,3 +545,7 @@ footer {
   padding-top: 50px;
   color: #999;
   clear: both; }
+  footer .social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px; }
