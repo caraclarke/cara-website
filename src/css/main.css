@@ -1,3 +1,6 @@
+/***************************
+  IMPORTS
+****************************/
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /* Document
    ========================================================================== */
@@ -434,6 +437,15 @@ template {
 [hidden] {
   display: none; }
 
+/***************************
+  FONT VARIABLES
+****************************/
+/***************************
+  MIXINS
+****************************/
+/***************************
+  COLOR VARIABLES
+****************************/
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #fff;
@@ -458,6 +470,9 @@ a {
   color: #6ab47b;
   text-decoration: none; }
 
+/***************************
+  NAVBAR/HEADER
+****************************/
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
