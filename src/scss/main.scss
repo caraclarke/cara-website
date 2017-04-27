@@ -6,6 +6,7 @@
 @import "vars/vars";
 
 @import "base";
+@import "sections/portfolio";
 
 /***************************
   NAVBAR/HEADER
@@ -69,4 +70,5 @@ footer {
   text-align: center;
   padding-top: 50px;
   color: $light-grey;
+  clear: both;
 }
